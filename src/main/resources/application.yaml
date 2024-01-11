@@ -1,0 +1,23 @@
+server:
+    port: 9090
+#spring:
+#    security:
+#        oauth2:
+#            client:
+#                registration:
+#                    salesforce:
+#                        client-id: 3MVG9pRzvMkjMb6m6dJx0Ld_MNOOt90M_iF9WreeyPDb5YKJPIyM1_8uqSjvwxKDxArJc7O_aZVCZfwKgdsqu
+#                        client-secret: 8BA80D435F42FA23F8A0FECD1A44AA83811ABDC3552FDBA2F878471E82299D65
+#                        authorization-grant-type: authorization_code
+#                        redirect-uri: http://localhost:9090/callback
+#                provider:
+#                    salesforce:
+#                        authorization-uri: https://breezeware3-dev-ed.develop.my.salesforce.com/oauth2/authorize
+#                        token-uri: https://breezeware3-dev-ed.develop.my.salesforce.com/services/oauth2/token
+#                        user-info-uri: https://breezeware3-dev-ed.develop.my.salesforce.com/services/oauth2/userinfo
+#                        user-name-attribute: id
+management:
+    endpoints:
+        web:
+            exposure:
+                include: health
